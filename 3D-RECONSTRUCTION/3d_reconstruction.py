@@ -1,8 +1,3 @@
-"""
-Created on Sat Apr 11 15:04:23 2020
-@author: jamesa
-"""
-
 import os
 import pathlib
 import argparse
