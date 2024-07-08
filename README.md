@@ -3,7 +3,9 @@
 * Dependensi 
 pip install -r requirements.txt
 
-### 3D-RECONSTRUCTION berisi script untuk membuat 3d mesh dengan menggunakan pipeline dari meshroom https://github.com/alicevision/meshroom/. pipeline tersebut memuat 
+## 3D-RECONSTRUCTION 
+
+Direktori ini berisi script untuk membuat 3d mesh dengan menggunakan pipeline dari meshroom https://github.com/alicevision/meshroom/. pipeline tersebut memuat 
 1. Camera Init
 2. Feature Extraction
 3. Image Matching
@@ -27,7 +29,8 @@ Lalu jalankan
 data berisi sekumpulan gambar objek, sebagai contoh dapat dilihat pada data/pumpkins
 
 
-### 3D-2-FLATTEN berisi direktori untuk melakukan flatten mesh 3d. Kode bersumber dari https://github.com/GeometryCollective/boundary-first-flattening.
+## 3D-2-FLATTEN 
+Direktor ini berisi direktori untuk melakukan flatten mesh 3d. Kode bersumber dari https://github.com/GeometryCollective/boundary-first-flattening.
 anda bisa melakukan cloning repositori terlebih dahulu kemudian melakukan install dependensi sesuai arahan repositori tersebut 
 
 untuk melakukan flatten 
@@ -38,7 +41,8 @@ kemudian jalankan
 ```./bff-command-line in.obj out.obj```
 
 
-### AREA-CALCULATION berisi script untuk menghitung area pada mesh, script untuk melakukan isolasi mesh berdasarkan warna tertentu.
+## AREA-CALCULATION 
+Direktori ini berisi script untuk menghitung area pada mesh, script untuk melakukan isolasi mesh berdasarkan warna tertentu.
 
 untuk melakukan perhitungana area berdasarkna warna gelap, terang, dan biru 
 
