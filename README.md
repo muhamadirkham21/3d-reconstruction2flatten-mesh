@@ -49,14 +49,12 @@ untuk melakukan perhitungana area berdasarkna warna gelap, terang, dan biru
 ```cd ./AREA-CALCULATION```
 kemudian jalankan
 
-```python compute_area_blue.py /path/to/your/mesh.obj --dark_threshold 6 --tolerance 157```
+```python preprocess.py --input_mesh_path "path/to/input_mesh.obj" --output_mesh_path "path/to/output_mesh.obj"```
+output script akan menampilkan luas permukaan mesh warna biru, warna gelap dan warna putih. serta otomatis akan menghilangkan mesh yang berwarna biru dan menyimpannya ke mesh yang baru. 
 
-anda bisa melakukan perubahan parameter dark_threshold, tolerance dan warna yang ingin dihitung.
+Untuk melakukan setting parameter warna pada preproces.py, ubah kode warna rgb. sebagai contoh (0, 0, 255, 255) untuk kode warna biru. (255, 0, 0, 255) untuk warna merah. berhati-hatilah dengan setting parameter warna tersebut karena sangat sensitif. untuk pengaturan yang lebih baik kami merekomendasikan menggunakan pengaturan warna menggunakan meshlab.
 
-untuk melakukan isolasi mesh supaya warna tertentu saja yang hanya di tampilkan 
 
-jalankan 
-```python mesh_isolation.py /path/to/your/mesh.obj /path/to/save/processed_mesh.obj --tolerance 50```
 
 
 
