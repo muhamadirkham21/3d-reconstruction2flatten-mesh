@@ -50,6 +50,8 @@ untuk melakukan perhitungana area berdasarkna warna gelap, terang, dan biru
 kemudian jalankan
 
 ```python preprocess.py --input_mesh_path "path/to/input_mesh.obj" --output_mesh_path "path/to/output_mesh.obj"```
+
+
 output script akan menampilkan luas permukaan mesh warna biru, warna gelap dan warna putih. serta otomatis akan menghilangkan mesh yang berwarna biru dan menyimpannya ke mesh yang baru. 
 
 Untuk melakukan setting parameter warna pada preproces.py, ubah kode warna rgb. sebagai contoh (0, 0, 255, 255) untuk kode warna biru. (255, 0, 0, 255) untuk warna merah. berhati-hatilah dengan setting parameter warna tersebut karena sangat sensitif. untuk pengaturan yang lebih baik kami merekomendasikan menggunakan pengaturan warna menggunakan meshlab.
