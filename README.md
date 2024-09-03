@@ -1,7 +1,13 @@
 <h1 align="center">3D MESH RECONSTRUCTION AND FLATTEN</h1>
 
 * Dependensi 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
+
+### Main Task
+* 3d Reconstruction
+* Flattened 3d model
+* 3d Model Area Calculation
+* 3d Model Weight Aproximation
 
 ## 3D-RECONSTRUCTION 
 
@@ -54,12 +60,12 @@ kemudian jalankan
 
 output script akan menampilkan luas permukaan mesh warna biru, warna gelap dan warna putih. serta otomatis akan menghilangkan mesh yang berwarna biru dan menyimpannya ke mesh yang baru. 
 
-Untuk melakukan setting parameter warna pada preproces.py, ubah kode warna rgb. sebagai contoh (0, 0, 255, 255) untuk kode warna biru. (255, 0, 0, 255) untuk warna merah. berhati-hatilah dengan setting parameter warna tersebut karena sangat sensitif. untuk pengaturan yang lebih baik kami merekomendasikan menggunakan pengaturan warna menggunakan meshlab.
+Untuk melakukan setting parameter warna pada `preproces.py`, ubah kode warna rgb. sebagai contoh (0, 0, 255, 255) untuk kode warna biru. (255, 0, 0, 255) untuk warna merah. berhati-hatilah dengan setting parameter warna tersebut karena sangat sensitif. untuk pengaturan yang lebih baik kami merekomendasikan menggunakan pengaturan warna menggunakan meshlab (https://www.meshlab.net/#download).
 
 
 ## WEIGHT-APROXIMATION
 
-Kami menyediakan dataset 3d model buatan untuk melakukan aproksimasi weight mesh. jika anda ingin menambah dataset, tambahkan data.onj pada folder ./weight-aproximation/data kemudian jalankan 
+Kami menyediakan dataset 3d model buatan untuk melakukan aproksimasi weight mesh. jika anda ingin menambah dataset, tambahkan data.obj pada folder ./weight-aproximation/data kemudian jalankan 
 
 1. `extract_features.py`
 2. `exctract_volumes.py` 
