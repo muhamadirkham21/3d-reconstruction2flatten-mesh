@@ -57,6 +57,17 @@ output script akan menampilkan luas permukaan mesh warna biru, warna gelap dan w
 Untuk melakukan setting parameter warna pada preproces.py, ubah kode warna rgb. sebagai contoh (0, 0, 255, 255) untuk kode warna biru. (255, 0, 0, 255) untuk warna merah. berhati-hatilah dengan setting parameter warna tersebut karena sangat sensitif. untuk pengaturan yang lebih baik kami merekomendasikan menggunakan pengaturan warna menggunakan meshlab.
 
 
+## WEIGHT-APROXIMATION
+
+Kami menyediakan dataset 3d model buatan untuk melakukan aproksimasi weight mesh. jika anda ingin menambah dataset, tambahkan data.onj pada folder ./weight-aproximation/data kemudian jalankan 
+
+1. `extract_features.py`
+2. `exctract_volumes.py` 
+
+setelah itu file `mesh_data_summary.xlsx` dan `volumes.csv` akan terupdate. merge keduanya dan lakukan proses training model Machine Learning sesuai kebutuhan.
+
+Jika anda ingin melakukan training langsung dengan dataset kami, Buka dan lakukan tuning parameter pada `notebook.ipynb` yang sudah kami sediakan.
+
 
 
 
